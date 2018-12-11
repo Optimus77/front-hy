@@ -1,19 +1,7 @@
 {
-  "name": "ngx-admin",
+  "name": "front-hy",
   "version": "3.0.0",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akveo/ngx-admin.git"
-  },
-  "bugs": {
-    "url": "https://github.com/akveo/ngx-admin/issues"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "IE 11"
-  ],
   "scripts": {
     "ng": "ng",
     "conventional-changelog": "conventional-changelog",

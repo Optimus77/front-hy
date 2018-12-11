@@ -1,0 +1,17 @@
+<div class="wrap">
+  <ul>
+    <li>
+      <p *ngIf="tag==1"><img [src]="aaa" err-src="1.png"></p>
+      <p *ngIf="tag==2"><img [src]="aaa"></p>
+      <p *ngIf="tag==3"><img [src]="aaa"></p>
+      <p *ngIf="tag==4"><img [src]="aaa"></p>
+      <p *ngIf="tag==5"><img [src]="aaa"></p>
+    </li>
+  </ul>
+
+  <a *ngIf="tag!=1"  href="javascript:;" class="prev"><p (click)="left_Click()">&lt;</p></a>
+  <a *ngIf="tag!=5"  href="javascript:;" class="next"><p (click)="right_Click()">&gt;</p></a>
+</div>
+
+
+

@@ -29,19 +29,7 @@ export class PhoneComponent implements OnInit {
   }];
 
 
-
-  userMenu = [{
-    title: 'Profile',
-  }, {
-    title: 'Log out',
-  }];
-
   isSingleView = true;
-
-  selectCamera(camera: any) {
-    this.selectedCamera = camera;
-    this.isSingleView = false;
-  }
 
   left_Click() {
     this.tag--;

@@ -60,8 +60,8 @@
     position: absolute;
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
   }
 
   .cameras.single-view {
@@ -73,27 +73,23 @@
         height: 100%;
       }
     }
+
     .next{
-      display: inline-block;
-      right:0;
-      top: 50%;
-      width: 5%;
-      height: 10%;
-      cursor: pointer;
-      text-align: center;
-      line-height: 10%;
-      font-size: x-large;
+      right: 0;
     }
 
     .prev{
-      display: inline-block;
       left:0;
+    }
+    .prev, .next{
+      display: flex;
+      align-items: center;
+      justify-content: center;
       top: 50%;
       width:5%;
       height: 10%;
       cursor: pointer;
       text-align: center;
-      line-height: 10%;
       font-size: x-large;
     }
 
